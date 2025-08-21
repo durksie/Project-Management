@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Home",
+    "icon": "Home"
+  },
+  {
+    "name": "Add Project",
+    "icon": "FolderPlus"
+  },
+  {
+    "name": "Projects",
+    "icon": "Users"
+  },
+  {
+    "name": "Events",
+    "icon": "CalendarDays"
+  },
+  {
+    "name": "Community",
+    "icon": "UserCheck"
+  }
+]

@@ -1,21 +1,16 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import './App.css';
 
-import LoginPage from './pages/LoginPage';
-import RegisterPage from './pages/RegisterPage';
-import ProjectForm from './pages/ProjectForm';
-import ProjectDetails from './pages/ProjectDetails';
-import NotFound from './pages/NotFound';
+// Import the page component
+import page from './components/page';
 
 function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<LoginPage />} />
-        <Route path="/register" element={<RegisterPage />} />
-        <Route path="/create" element={<ProjectForm />} />
-        <Route path="/project/:id" element={<ProjectDetails />} />
-        <Route path="*" element={<NotFound />} />
+        {/* Home route that shows your Page.tsx content */}
+        <Route path="/" element={<page />} />
       </Routes>
     </Router>
   );
